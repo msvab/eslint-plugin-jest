@@ -6,6 +6,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:eslint-plugin/recommended',
+    'plugin:node/recommended',
     'prettier',
   ],
   plugins: ['eslint-plugin', 'node', 'prettier'],
@@ -21,7 +22,6 @@ module.exports = {
     strict: 'error',
     'prefer-template': 'warn',
     'object-shorthand': ['warn', 'always', { avoidExplicitReturnArrows: true }],
-    'node/no-unsupported-features': 'error',
     'prettier/prettier': 'error',
   },
   overrides: [

@@ -34,16 +34,16 @@
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "devDependencies": {
-    "@commitlint/cli": "^6.0.1",
-    "@commitlint/config-conventional": "^6.0.2",
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
     "eslint": "^5.1.0",
-    "eslint-config-prettier": "^2.7.0",
+    "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-eslint-plugin": "^1.4.0",
-    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-prettier": "^2.3.1",
     "husky": "^0.14.3",
-    "jest": "^22.0.4",
-    "jest-runner-eslint": "^0.4.0",
+    "jest": "^23.4.1",
+    "jest-runner-eslint": "^0.6.0",
     "lint-staged": "^7.0.0",
     "prettier": "^1.10.2",
     "prettylint": "^1.0.0"
